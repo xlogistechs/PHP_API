@@ -1,0 +1,205 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Poppins', sans-serif;
+	background: #EEEFF1;
+}
+input:focus { outline: none; }
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.5);
+    z-index: 9999999;
+}
+#loading {
+    margin:220px 0 0 -20px;
+}
+
+/*pre loading*/
+
+.spinner.loading {
+  padding: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.spinner.loading:before {
+  content: "";
+  height: 30px;
+  width: 30px;
+  margin: -15px auto auto -15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-width: 8px;
+  border-style: solid;
+  border-color: #2180c0 #ccc #ccc;
+  border-radius: 100%;
+  animation: rotation .7s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  } to {
+    transform: rotate(359deg);
+  }
+}
+
+/*pre loading*/
+
+.container
+{
+    background: white;
+    width: 350px;
+    margin: 20px auto;
+    border-radius: 4px;
+    padding: 20px 0px;
+    border: 1pt solid #E3E1E1;
+}
+.serviceDetails
+{
+    padding: 0px 15px;
+}
+.padding20
+{
+    padding:0 20px 0 20px;
+}
+.mainServicesDetail {
+	margin: 20px auto;
+	}
+	hr {
+		margin: 15px 0;
+        border: 1pt solid #EDEDED;
+	}
+	/* Services Detail */
+    
+    p
+    {
+        margin: 5px 0 0 0;
+        font-size: 14px;
+    }
+	.sectionHeading h3 {
+		font-size: 20px;
+		color:#363B3F;
+		font-weight: 500;
+		text-transform: capitalize;
+		margin:0;
+	}
+	.paymentMethod h3
+	{
+	    font-size: 20px;
+        color: #363B3F;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+	}
+	.options {
+		display: inline-flex;
+		justify-content: normal;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.detailOption ul {
+		list-style: none;
+		padding: 0px;
+		width: 100%;
+		margin: 0px;
+	}
+	.textRight {
+		text-align: right;
+	}
+	.textRight span
+	{
+	    color: #363B3F !important;
+	    font-weight: 500 !important;
+	}
+	.total ul li
+	{
+	    padding: 8px 0px;
+		width: 100%;
+	}
+	.detailOption ul li {
+		padding: 2px 0px;
+	}
+	.options span {
+		font-size: 14px;
+        color: #596168;
+        font-weight: 300;
+	}
+	.total {
+		margin: 0 auto;
+	}
+	.total ul {
+		font-size: 20px;
+		color: #353D45;
+		text-transform: capitalize;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		padding: 0px;
+        margin: 0px;
+	}
+	/* End Services Detail */
+
+
+	/*.mainSecureCheckout .sectionHeading h3 {*/
+	/*	padding: 0px 10px;*/
+	/*	font-size: 34px;*/
+	/*	color: #000;*/
+	/*}*/
+	.itsSafeToPay {
+		display: inline-flex;
+		justify-content: left;
+		align-items: baseline;
+	}
+	.fa-lock::before {
+		color: #4CB616;
+		margin: 0 10px 0 0;
+		font-size: 16px;
+	}
+	.choseOption input {
+		margin: 0 25px 0 0;
+		cursor: pointer;
+		font-size: 22px;
+	}
+	.choseOption img {
+		height: 28px;
+	}
+	.choseOption .fa.fa-lock {
+		/*text-align: ;*/
+		/*width: 100%;*/
+		/*text-align: end;*/
+	}
+	.choseOption {
+		display: inline-flex;
+        align-items: center;
+        justify-content: left;
+        padding: 10px 15px;
+        border: 1px solid #eaeaea;
+        margin: 10px 0 0 22px;
+        border-radius: 3px !important;
+        width:80%;
+        cursor: pointer;
+	}
+	.proceedBtn {
+		background: #DD2527;
+        align-items: center;
+        justify-content: left;
+        padding: 12px 15px;
+        border: 0px;
+        margin: 10px 0 0 22px;
+        border-radius: 3px !important;
+        width: 89%;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+	}
+@media screen and (max-width: 480px) {
+
+	
+}
